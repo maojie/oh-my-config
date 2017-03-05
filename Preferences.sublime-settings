@@ -1,0 +1,35 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+  "font_face": "Andale Mono",
+  "font_size": 16,
+
+  // Columns in which to display vertical rulers
+  "rulers": [80],
+
+  // The number of spaces a tab is considered equal to
+  "tab_size": 2,
+
+  // If enabled, will highlight any line with a caret
+  "highlight_line": true,
+
+  // Set to "none" to turn off drawing white space, "selection" to draw only the
+  // white space within the selection, and "all" to draw all white space
+  "draw_white_space": "all",
+
+  // Set to true to insert spaces when tab is pressed
+  "translate_tabs_to_space": true,
+
+  // Set to true to removing trailing white space on save
+  "trim_trailing_white_space_on_save": true,
+
+  // Set to true to ensure the last line of the file ends in a newline
+  // character when saving
+  "ensure_newline_at_eof_on_save": true,
+
+  // Show folders in the side bar in bold
+  "bold_folder_labels": true,
+
+  // Allows tabs to scroll left and right, instead of simply shrinking
+  "enable_tab_scrolling": false
+}
